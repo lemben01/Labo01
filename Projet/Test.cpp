@@ -4,11 +4,12 @@
 
 #include<iostream>;
 using namespace std;
-
+// pour gerer efficacement la convertion des caractere accentuer
+    setlocale(LC_ALL, "");
 int main()
 {
      //allo
-
+          
    for (int a = 0; a < 1;)
    {
       int i;
